@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>취업 포토폴리오(수원스타필드)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/initial.css" />
     <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
@@ -509,16 +513,14 @@
             <h1><span>entertain</span>ment</h1>
             <p>대한민국 최초의 레저 테마파크를 만나보세요.</p>
             <div class="l-banner-button">
-              <div class="lbtn-left"></div>
-              <div class="lbtn-right"></div>
+              <div class="lbtn-prev"></div>
+              <div class="lbtn-next"></div>
             </div>
           </div>
-          <div class="swiper-wrap">
-            <div class="swiper">
-              <div class="swiper-content">
-                <figure>
-                  <img src="./img/mainpage/last-banner/img1.jpg" alt="1" />
-                </figure>
+          <div class="swiper l-banner">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/mainpage/last-banner/img1.jpg" alt="1" />
                 <div class="name">
                   <img
                     src="./img/mainpage/last-banner/img1_name.png"
@@ -532,10 +534,8 @@
                   <a href="#" class="btn">view more</a>
                 </div>
               </div>
-              <div class="swiper-content">
-                <figure>
-                  <img src="./img/mainpage/last-banner/img2.png" alt="2" />
-                </figure>
+              <div class="swiper-slide">
+                <img src="./img/mainpage/last-banner/img2.png" alt="2" />
                 <div class="name">
                   <img
                     src="./img/mainpage/last-banner/img2_name.png"
@@ -549,10 +549,8 @@
                   <a href="#" class="btn">view more</a>
                 </div>
               </div>
-              <div class="swiper-content">
-                <figure>
-                  <img src="./img/mainpage/last-banner/img3.jpg" alt="3" />
-                </figure>
+              <div class="swiper-slide">
+                <img src="./img/mainpage/last-banner/img3.jpg" alt="3" />
                 <div class="name">
                   <img
                     src="./img/mainpage/last-banner/img3_name.png"
@@ -569,10 +567,8 @@
                   <a href="#" class="btn">view more</a>
                 </div>
               </div>
-              <div class="swiper-content">
-                <figure>
-                  <img src="./img/mainpage/last-banner/img4.jpg" alt="4" />
-                </figure>
+              <div class="swiper-slide">
+                <img src="./img/mainpage/last-banner/img4.jpg" alt="4" />
                 <div class="name">
                   <img
                     src="./img/mainpage/last-banner/img4_name.png"
@@ -586,10 +582,8 @@
                   <a href="#" class="btn">view more</a>
                 </div>
               </div>
-              <div class="swiper-content">
-                <figure>
-                  <img src="./img/mainpage/last-banner/img5.jpg" alt="5" />
-                </figure>
+              <div class="swiper-slide">
+                <img src="./img/mainpage/last-banner/img5.jpg" alt="5" />
                 <div class="name">
                   <img
                     src="./img/mainpage/last-banner/img5_name.png"
@@ -603,6 +597,10 @@
                   <a href="#" class="btn">view more</a>
                 </div>
               </div>
+            </div>
+            <div class="l-banner-button">
+              <div class="lbtn-prev"></div>
+              <div class="lbtn-next"></div>
             </div>
           </div>
         </article>
@@ -668,6 +666,7 @@
       </div>
     </footer>
     <script src="./js/gnb.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-2.2.0.min.js"
       type="text/javascript"

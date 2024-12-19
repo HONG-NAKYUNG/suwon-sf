@@ -83,4 +83,14 @@ $(function () {
       .css("display", "block");
     return false;
   });
+
+  // 메인페이지 l-banner swiper
+  var swiper = new Swiper(".l-banner", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".lbtn-next",
+      prevEl: ".lbtn-prev",
+    },
+  });
 });
